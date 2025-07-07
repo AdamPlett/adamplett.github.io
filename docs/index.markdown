@@ -7,3 +7,4 @@ title: Past Projects
 layout: collection
 entries_layout: grid
 ---
+[Horror Project](https://adamplett.github.io/first-person-horror)
