@@ -49,7 +49,6 @@ defaults: # _posts
       type: pages
     values:
       layout: single
-      author_profile: true
   
 
 # Exclude from processing.
