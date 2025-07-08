@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 header:
   image: /assets/images/meandjobu.jpeg
-title: Past Projects
+title: Experience
 layout: collection
 entries_layout: grid
 feature_row:
