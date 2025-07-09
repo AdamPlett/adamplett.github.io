@@ -1,11 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+classes: wide
 header:
   image: /assets/images/meandjobu.jpeg
 title: Experience
-layout: collection
-entries_layout: grid
+layout: splash
 feature_row:
   - image_path: /assets/images/gamejamPlaceholder.png
     alt: "Game Jam"
@@ -20,4 +20,7 @@ feature_row:
     url: /action-sequence/
     btn_label: "Action Sequence"
 ---
+{% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
+
+# **Experience**
 {% include feature_row %}
