@@ -4,6 +4,10 @@
 title: Adam Plett
 layout: single
 feature_row:
+  - image_path: /assets/images/mush.png
+    alt: "Mush"
+    url: /mush/
+    btn_label: "Mush"
   - image_path: /assets/images/gamejamPlaceholder.png
     alt: "Game Jam"
     url: /boss-rush-jam/
@@ -16,10 +20,6 @@ feature_row:
     alt: "Action"
     url: /action-sequence/
     btn_label: "Action Sequence"
-  - image_path: /assets/images/mush.png
-    alt: "Mush"
-    url: /mush/
-    btn_label: "Mush"
 ---
 {% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
 # **Experience**
