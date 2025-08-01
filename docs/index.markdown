@@ -1,9 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-classes: wide
-title: Experience
-layout: splash
+title: Adam Plett
+layout: single
 feature_row:
   - image_path: /assets/images/gamejamPlaceholder.png
     alt: "Game Jam"
@@ -17,8 +16,11 @@ feature_row:
     alt: "Action"
     url: /action-sequence/
     btn_label: "Action Sequence"
+  - image_path: /assets/images/mush.png
+    alt: "Mush"
+    url: /mush/
+    btn_label: "Mush"
 ---
 {% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
-
 # **Experience**
 {% include feature_row %}
