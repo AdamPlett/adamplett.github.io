@@ -23,6 +23,11 @@ In order to make debugging and designing faster, I also created scriptable objec
 ![paintable](/assets/images/mush_tiles_paint.gif){: .align-left}          
 ![setup](/assets/images/mush_tiles_setup.gif){: .align-left} I created a set of tiles, that when added to a rule tile in unity, allows you to "paint" level design. The configuration of the rule tile automatically selects the right tile for the position and retroactively change previous tiles to align with new ones. This allows designers to focus on building the flow of the level rather wasting time on placing the correct tiles
 
+## Gameplay
+<video width="720" height="480" controls="controls">
+  <source src="/assets/images/mush_gameplay.mp4" type="video/mp4">
+</video>
+
 <!---
 {% include gallery id="gallery2" layout="third" %}
 ![doubleJump](/assets/images/mush_stats_doubleJump.gif){: align-left} 
