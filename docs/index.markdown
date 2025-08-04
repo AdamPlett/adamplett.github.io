@@ -22,5 +22,8 @@ feature_row:
     btn_label: "Action Sequence"
 ---
 {% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
+## About Me
+I gradauted from University of Texas at Dallas in Spring 2025 with a bachelors in Arts, Technology, Emerging Communication with a concentration in Animation and Games. I am passionate about all things game design. I am a proficient scripter, audio engineer, level, game, and user interface designer
+
 # **Experience**
 {% include feature_row %}
