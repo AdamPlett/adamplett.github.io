@@ -12,6 +12,9 @@ gallery2:
 ---
 Mush was my senior project. It is a vertical slice of an action platformer. I created all the assets (Scripts, SFX, sprites, animations, etc.). My major focus was to create a solid foundation (modular and easy to write code, Scriptable objects for convenient and quick game design, "paintable levels', and documentation)
 ## Coding Architecture
+![Coding Architecture](/assets/images/mush_coding.png)
+
+I used loose coupling to allow for modular scripts. It takes longer to set up but allows for rapid iteration and creation of new assets based on good architecture. You can iterate on one section without messing up the others and would allow for multiple people to work on seperate scripts at once. Finally it localizes bugs and makes them easier to squash.
 
 ## Making The Designers Job Easier
 {% include gallery caption="I designed the movement to be completely customizable with stats (Converted things like jump speed to jump height for easier comprehension). They also use scriptable objects so that designers can edit the stats while in play mode in unity and the changes will save without needing to go back and forth" %}
