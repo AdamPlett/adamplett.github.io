@@ -15,7 +15,8 @@ Mush was my senior project in Spring 2025. It is a vertical slice of an action p
 ![Coding Architecture](/assets/images/mush_coding.png)
 
 I used loose coupling to allow for modular scripts. It takes longer to set up but allows for rapid iteration and creation of new assets based on good architecture. You can iterate on one section without messing up the others and would allow for multiple people to work on seperate scripts at once. Finally it localizes bugs and makes them easier to squash.
-{% include gallery id="gallery2" %}
+![coding_controller](/assets/images/mush_code_controller.png)
+![coding_check](/assets/images/mush_code_check.png)
 
 ## Making The Designers Job Easier
 {% include gallery caption="I designed the movement to be completely customizable with stats (Converted things like jump speed to jump height for easier comprehension). They also use scriptable objects so that designers can edit the stats while in play mode in unity and the changes will save without needing to go back and forth" %}
@@ -24,8 +25,11 @@ I used loose coupling to allow for modular scripts. It takes longer to set up bu
 In order to make debugging and designing faster, I also created scriptable objects so that designers can easily switch between controlling players/enemies or having AI control them.
 
 ## Paintable Level Design
-![paintable](/assets/images/mush_tiles_paint.gif){: .align-left}          
+![paintable](/assets/images/mush_tiles_paint.gif){: .align-left} 
 ![setup](/assets/images/mush_tiles_setup.gif){: .align-left} I created a set of tiles, that when added to a rule tile in unity, allows you to "paint" level design. The configuration of the rule tile automatically selects the right tile for the position and retroactively change previous tiles to align with new ones. This allows designers to focus on building the flow of the level rather wasting time on placing the correct tiles
+
+## Powerups
+![Bubble Code](/assets/images/mush_code_bubble.png)
 
 ## Gameplay
 <video width="720" height="480" controls="controls">
