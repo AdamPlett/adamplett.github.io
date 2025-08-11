@@ -4,7 +4,7 @@
 title: Adam Plett
 layout: single
 feature_row:
-  - image_path: /assets/images/mush.png
+  - image_path: /assets/images/mush_resized.png
     alt: "Mush"
     url: /mush/
     btn_label: "Mush"
