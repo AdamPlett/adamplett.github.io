@@ -25,11 +25,17 @@ I used loose coupling to allow for modular scripts. It takes longer to set up bu
 ![coding_check](/assets/images/mush_code_check.png)
 
 ## Making The Designers Job Easier
-{% include gallery caption="I designed the movement to be completely customizable with stats (Converted things like jump speed to jump height for easier comprehension). They also use scriptable objects so that designers can edit the stats while in play mode in unity and the changes will save without needing to go back and forth" %}
-
+{% include figure popup=true image_path="/assets/images/mush_stats_doubleJump.gif" caption="Changing the amount of double jumps" %}{: .align-left}
+{% include figure popup=true image_path="/assets/images/mush_stats_highJump.gif" caption="Changing jump height" %}{: .align-left}
+{% include figure popup=true image_path="/assets/images/mush_SO_stats.png" caption="Changable stats" %}{: .align-right}
+I designed the movement to be completely customizable with stats (Converted things like jump speed to jump height for easier comprehension). They also use scriptable objects so that designers can edit the stats while in play mode in unity and the changes will save without needing to go back and forth
+{: .text-right}
+{:style="clear: right"}
+<br><br>
 To make debugging and designing faster, I also created scriptable object controllers so that designers can easily switch between controlling players/enemies or having AI control them.
+{: .text-center}
 {% include figure popup=true image_path="/assets/images/mush_inputController.png" caption=" The abstract Input Controller class" %}{: .align-center}
-{% include figure popup=true image_path="/assets/images/mush_controllerClass.png" caption="The Controller class holds an instance of an input controller, so that the designer can change it while in play mode in unity" %}{: .align-center}
+{% include figure popup=true image_path="/assets/images/mush_controllerClass.png" caption="The Controller class holds a null instance of an input controller, so that the designer can change it in the unity editor and while in play mode" %}{: .align-center}
 {% include figure popup=true image_path="/assets/images/mush_code_controller.png" caption="The Player Controller class that takes in input from the player and is derived from the input controller class" %}
 {% include figure popup=true image_path="/assets/images/mush_AIController.png" caption="A very simple AI controller class that makes enemies or players move right and jump and is also derived from the input controller class" %}
 {% include figure popup=true image_path="/assets/images/mush_controllers.gif" caption="Switching input controllers" %}{: .align-center}
