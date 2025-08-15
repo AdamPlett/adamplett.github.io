@@ -46,7 +46,7 @@ To make debugging and designing faster, I also created scriptable object control
 I created a set of tiles, that when added to a rule tile in unity, allows you to "paint" level design. The configuration of the rule tile automatically selects the right tile for the position and retroactively change previous tiles to align with new ones. This allows designers to focus on building the flow of the level rather wasting time on placing the correct tiles
 {: text-right}
 
-## Powerups
+## Item Pickups
 {: .text-center}
 {% include figure popup=true image_path="/assets/images/mush_code_bubble.png" %}
 
