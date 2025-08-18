@@ -21,8 +21,7 @@ Mush was my senior project in Spring 2025. It is a vertical slice of an action p
 {% include figure popup=true image_path="/assets/images/mush_coding.png" %}
 
 I used loose coupling to allow for modular scripts. It takes longer to set up but allows for rapid iteration and creation of new assets based on good architecture. You can iterate on one section without messing up the others and would allow for multiple people to work on seperate scripts at once. Finally it localizes bugs and makes them easier to squash.
-![coding_controller](/assets/images/mush_code_controller.png)
-![coding_check](/assets/images/mush_code_check.png)
+{% include figure popup=true image_path="assets/images/mush_coding_pics.png" %}
 
 ## Making The Designers Job Easier
 {% include figure popup=true image_path="/assets/images/mush_stats_doubleJump.gif" caption="Changing the amount of double jumps" %}{: .align-left}
