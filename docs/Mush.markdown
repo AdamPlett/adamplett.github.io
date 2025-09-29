@@ -17,7 +17,7 @@ gallery3:
   - image_path: /assets/images/mush_AIController.png
 ---
 Mush was my senior project in Spring 2025. It is a vertical slice of an action platformer created in Unity. I created all the assets (Scripts, SFX, sprites, animations, etc.). My major focus was to create a solid foundation (modular and easy to write code, Scriptable objects for convenient and quick game design, "paintable levels', and documentation)
-## Coding Architecture
+## Coding Architecture for character systems
 {% include figure popup=true image_path="/assets/images/mush_coding.png" %}
 
 I used loose coupling to allow for modular scripts. It takes longer to set up but allows for rapid iteration and creation of new assets based on good architecture. You can iterate on one section without messing up the others and would allow for multiple people to work on seperate scripts at once. Finally it localizes bugs and makes them easier to squash.
@@ -48,6 +48,7 @@ I created a set of tiles, that when added to a rule tile in unity, allows you to
 ## Item Pickups
 {: .text-center}
 {% include figure popup=true image_path="/assets/images/mush_code_bubble.png" %}
+<iframe src="https://youtu.be/iufBszNBXFs;autoplay=1&mute=1" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 
 ## Gameplay
 <video width="720" height="480" controls="controls">

@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title: "Game Design II Horror Project"
+title: "Level Design II Horror Project"
 permalink: /first-person-horror/
 ---
-This was a horror project I completed during my game design II class during spring 2025
+A horror project I created in Unreal in my level design II class during spring 2025.
