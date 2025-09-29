@@ -48,7 +48,7 @@ I created a set of tiles, that when added to a rule tile in unity, allows you to
 ## Item Pickups
 {: .text-center}
 {% include figure popup=true image_path="/assets/images/mush_code_bubble.png" %}
-<iframe src="https://youtu.be/iufBszNBXFs;autoplay=1&mute=1" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/iufBszNBXFs?controls=0&mute=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=iufBszNBXFs" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 
 ## Gameplay
 <video width="720" height="480" controls="controls">
