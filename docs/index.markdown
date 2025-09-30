@@ -15,7 +15,7 @@ feature_row:
   - image_path: /assets/images/horrorPlaceholder.png
     alt: "Horror"
     url: /first-person-horror/
-    btn_label: "Game Design II Horror Project"
+    btn_label: "Level Design II Horror Project"
   - image_path: /assets/images/actionPlaceholder.png
     alt: "Action"
     url: /action-sequence/
