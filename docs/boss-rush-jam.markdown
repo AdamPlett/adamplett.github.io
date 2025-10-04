@@ -18,15 +18,14 @@ Using a fractured model you can set the relative force that the pieces will fly 
 The first boss fight was designed with two stages. The second consiting of the boss ocassionally grappling up to a higher platform that the player would have to complete a small puzzle or challenge to be able to reach. I played around with a couple ways of accomplishing this.
 First I made a way for the player to bring down the upper platform by destorying it supports but it was just too buggy. Next I made a wallrunning/parkour segment but it was just too noisy and obstructed a lot of view. Lastly I made it so that the player could guide the bosses projectile into the pillars to destroy them, and create wallruns up, off to the sides of the arena.
 <video width="720" height="480" autoplay loop muted>
-  <source src="/assets/images/BreakableObjectWallrun1.mp4" type="video/mp4">
-</video>
-<video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BreakableObjectPlatformPhysics.mp4" type="video/mp4">
 </video>
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/ParkourWDash.mp4" type="video/mp4">
 </video>
-
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BreakableObjectWallrun1.mp4" type="video/mp4">
+</video>
 ## UI
 
 ## Pathing algorithim
