@@ -20,13 +20,23 @@ First I made a way for the player to bring down the upper platform by destorying
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BreakableObjectPlatformPhysicsReframe.mov" type="video/mp4">
 </video>
+
+Physics Based
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/ParkourWDashReframe.mov" type="video/mp4">
 </video>
+
+Parkour Based
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BreakableObjectWallrun1Reframe.mov" type="video/mp4">
 </video>
+
+Breakable Object and Wallrun
+
 ## UI
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/LoadingScreenCrop.mp4" type="video/mp4">
+</video>
 
 ## Pathing algorithim
 After the game jam I created an a* pathing algorithim that traverses octrees, to help with pathing for projectiles or enemy movement. 
