@@ -4,7 +4,7 @@ title: "Boss Rush Game Jam"
 permalink: /boss-rush-jam/
 ---
 Lumenimpetus was an entry for the 2024 Boss Rush Game Jam, that some friends and I made in Unity. The theme was exchange. Our take was a movement based first person hack and slash/shooter, where you exchanged abilities with each boss you defeated.
-I focused on level design, enviromental scripting, UI design/scripting. 
+I focused on level design, enviromental scripting, Debugging, UI scripting/design, and sound. 
 
 ## Breakable Objects
 I created a verastile breakable object script. Breakable objects can be destroyed by another object calling its breakObject function (i.e. a projectile). Objects can also be destroyed if they have supports but all of them have been destroyed.
@@ -12,11 +12,13 @@ Using a fractured model you can set the relative force that the pieces will fly 
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BreakableObjectPillar.mp4" type="video/mp4">
 </video>
-
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BreakableObjectSmoke.mp4" type="video/mp4">
+</video>
 
 ## Arena Design
-The first boss fight was designed with two stages. The second consiting of the boss ocassionally grappling up to a higher platform that the player would have to complete a small puzzle or challenge to be able to reach. I played around with a couple ways of accomplishing this.
-First I made a way for the player to bring down the upper platform by destorying it supports but it was just too buggy. Next I made a wallrunning/parkour segment but it was just too noisy and obstructed a lot of view. Lastly I made it so that the player could guide the bosses projectile into the pillars to destroy them, and create wallruns up, off to the sides of the arena.
+The first boss's ability is a grapple, that he can use to pull the player in for melees, or grapple away for ranged attacks. In the second phase the boss would ocassionally grapple up to one of the higher platforms and we wanted the player to have to complete a small puzzle or challenge to be able to reach them. So I played around with a couple ways of accomplishing this.
+First I made a way for the player to bring down the upper platform by destorying it supports but it was just too buggy. Next I made a wallrunning/parkour segment but it was just too noisy and obstructed a lot of view. Lastly I made it so that the player could guide the bosses projectile into the pillars to destroy them, and create small sections where the player can wallrun up, off to the sides of the arena.
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BreakableObjectPlatformPhysicsReframe.mov" type="video/mp4">
 </video>
@@ -28,18 +30,28 @@ Physics Based
 
 Parkour Based
 <video width="720" height="480" autoplay loop muted>
-  <source src="/assets/images/BreakableObjectWallrun1Reframe.mov" type="video/mp4">
+  <source src="/assets/images/BreakableObjectWallrunFinal.mp4" type="video/mp4">
 </video>
 
 Breakable Object and Wallrun
 
-## UI
+The second boss uses portals to teleport away and the player must platform assisted by their grapple to chase down the boss. The boss also uses portals placed around the map to shoot her lasers through to create hazards.
+
+[comment]: # (Portals and lasers video)
+
+[comment]: # (Grappling and platforming video after boss TPs away)
+I also created a simple tutorial so the players can get down the basics.
+
+## UI and Sound
+I implemented all of the UI and Sound
+I made all the functionality for the settings, menus, HUD, and any other UI. 
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/LoadingScreenCrop.mp4" type="video/mp4">
 </video>
 
+[comment]: # (Title Screen, pause and setting, health bars and abilities pictures or videos)
 ## Pathing algorithim
-After the game jam I created an a* pathing algorithim that traverses octrees, to help with pathing for projectiles or enemy movement. 
+After the game jam I implemented an a* pathing algorithim that traverses octrees, to help with pathing for homing projectiles or enemy movement. 
 {% include figure popup=true image_path="/assets/images/octrees.png" %}
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/astar.mp4" type="video/mp4">
