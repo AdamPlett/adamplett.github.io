@@ -41,17 +41,32 @@ The second boss uses portals to teleport away and the player must platform assis
 
 [comment]: # (Grappling and platforming video after boss TPs away)
 I also created a simple tutorial so the players can get down the basics.
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushTutorial.mp4" type="video/mp4">
+</video>
 
 ## UI and Sound
-I implemented all of the UI and Sound
+I implemented all of the UI and Sound.
 I made all the functionality for the settings, menus, HUD, and any other UI. 
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushMainMenu.mp4" type="video/mp4">
+</video>
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushMenu.mp4" type="video/mp4">
+</video>
+
+The hud consisted of a health bar and some animated icons to tell you when you have your ranged attack or dash available and the boss health bar.
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushHUD.mp4" type="video/mp4">
+</video>
+
+For fun after the boss jam I made a loading/transition screen for between levels.
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/LoadingScreenCrop.mp4" type="video/mp4">
 </video>
 
-[comment]: # (Title Screen, pause and setting, health bars and abilities pictures or videos)
 ## Pathing algorithim
-After the game jam I implemented an a* pathing algorithim that traverses octrees, to help with pathing for homing projectiles or enemy movement. 
+Also after the game jam I implemented an a* pathing algorithim that traverses octrees, to help with pathing for homing projectiles or enemy movement. 
 {% include figure popup=true image_path="/assets/images/octrees.png" %}
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/astar.mp4" type="video/mp4">
