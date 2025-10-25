@@ -3,8 +3,8 @@ layout: single
 title: "Boss Rush Game Jam"
 permalink: /boss-rush-jam/
 ---
-Lumenimpetus was an entry for the 2024 Boss Rush Game Jam, that some friends and I made in Unity. The theme was exchange. Our take was a movement based first person hack and slash/shooter, where you exchanged abilities with each boss you defeated.
-I focused on level design, enviromental scripting, Debugging, UI scripting/design, and sound. 
+Lumenimpetus was an entry for the 2024 Boss Rush Game Jam. It was a collaborative effort between me and two other friends, made in Unity. The theme was exchange. Our take was a movement based first person hack and slash/shooter, where you exchanged abilities with each boss you defeated.
+I mainly focused on level design, enviromental scripting, debugging, UI scripting/design, and sound. 
 
 ## Breakable Objects
 I created a verastile breakable object script. Breakable objects can be destroyed by another object calling its breakObject function (i.e. a projectile). Objects can also be destroyed if they have supports but all of them have been destroyed.
@@ -38,16 +38,37 @@ Breakable Object and Wallrun
 The second boss uses portals to teleport away and the player must platform assisted by their grapple to chase down the boss. The boss also uses portals placed around the map to shoot her lasers through to create hazards.
 
 [comment]: # (Portals and lasers video)
+https://www.youtube.com/embed/fE0g_AD0gfQ
+<iframe src="https://www.youtube.com/embed/fE0g_AD0gfQ?controls=0&mute=1&showinfo=0&rel=0&autoplay=1&loop=1&playlist=iufBszNBXFs" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 
 [comment]: # (Grappling and platforming video after boss TPs away)
 I also created a simple tutorial so the players can get down the basics.
 <video width="720" height="480" autoplay loop muted>
-  <source src="/assets/images/BossRushTutorial.mp4" type="video/mp4">
+  <source src="/assets/images/BossRushTutorialReframed.mp4" type="video/mp4">
 </video>
 
 ## UI and Sound
 I implemented all of the UI and Sound.
-I made all the functionality for the settings, menus, HUD, and any other UI. 
+I made all the functionality for the settings, menus/pause, HUD, and any other UI. 
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushMainMenu.mp4" type="video/mp4">
+</video>
+
+The hud consisted of a health bar and some animated icons to tell you when you have your ranged attack or dash available and the boss health bar.
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushHUD.mp4" type="video/mp4">
+</video>
+
+Dymanic crosshair when grappling, depending on if it was successful or not.
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushGrappleFail.mp4" type="video/mp4">
+</video>
+<video width="720" height="480" autoplay loop muted>
+  <source src="/assets/images/BossRushGrapple.mp4" type="video/mp4">
+</video>
+
+
+For fun after the boss jam I made a loading/transition screen for between levels.
 <video width="720" height="480" autoplay loop muted>
   <source src="/assets/images/BossRushMainMenu.mp4" type="video/mp4">
 </video>
