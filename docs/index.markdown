@@ -15,11 +15,11 @@ feature_row:
   - image_path: /assets/images/horrorPlaceholder.png
     alt: "Horror"
     url: /first-person-horror/
-    btn_label: "Level Design II Horror Project"
-  - image_path: /assets/images/actionPlaceholder.png
-    alt: "Action"
-    url: /action-sequence/
-    btn_label: "Action Sequence"
+    btn_label: "Escape the Inevitable"
+  - image_path: /assets/images/2b_TitleCard.png
+    alt: "Game Jam 2"
+    url: /2b-game-jam/
+    btn_label: "Two Button Game Jam"
 ---
 {% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
 ## About Me
