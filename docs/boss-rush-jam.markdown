@@ -1,7 +1,12 @@
 ﻿---
 layout: single
+classes: wide
 title: "Boss Rush Game Jam"
 permalink: /boss-rush-jam/
+excerpt: First Person Action
+header:
+  overlay_image: assets/images/BossRushJamHeader.png
+  overlay_filter: 0.5
 ---
 Lumenimpetus was an entry for the 2024 Boss Rush Game Jam. It was a collaborative effort between me and two other friends, made in Unity. The theme was exchange. Our take was a movement based first person hack and slash/shooter, where you exchanged abilities with each boss you defeated.
 I mainly focused on level design, enviromental scripting, debugging, UI scripting/design, and sound. 

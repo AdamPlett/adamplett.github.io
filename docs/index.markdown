@@ -8,11 +8,11 @@ feature_row:
     alt: "Mush"
     url: /mush/
     btn_label: "Mush"
-  - image_path: /assets/images/gamejamPlaceholder.png
+  - image_path: /assets/images/BossRushJamHeader.png
     alt: "Game Jam"
     url: /boss-rush-jam/
     btn_label: "Boss Rush Game Jam"
-  - image_path: /assets/images/horrorPlaceholder.png
+  - image_path: /assets/images/HorrorProjectStorage.png
     alt: "Horror"
     url: /first-person-horror/
     btn_label: "Escape the Inevitable"
