@@ -23,7 +23,7 @@ feature_row:
 ---
 {% include figure popup=true image_path="/assets/images/meandjobu.jpeg" alt="Portfolio Header" %}
 ## About Me
-I am passionate about all things game design. I graduated from University of Texas at Dallas in Spring 2025 with a bachelors in Arts, Technology, Emerging Communication with a concentration in Animation and Games. I am a proficient scripter, and experienced in audio engineering, level, game, and user interface design.
+I am passionate about all things game design. I graduated from University of Texas at Dallas in Spring 2025 with a bachelors in Arts, Technology, Emerging Communication with a concentration in Animation and Games. I am a proficient scripter, and experienced in audio engineering, level, game, and user interface design and development.
 
 # **Experience**
 {% include feature_row %}
