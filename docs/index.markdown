@@ -16,7 +16,7 @@ feature_row:
     alt: "Horror"
     url: /first-person-horror/
     btn_label: "Escape the Inevitable"
-  - image_path: /assets/images/2b_TitleCard.png
+  - image_path: /assets/images/2BGameJamCard.png
     alt: "Game Jam 2"
     url: /2b-game-jam/
     btn_label: "Two Button Game Jam"
