@@ -7,18 +7,6 @@ excerpt: "2D platformer Vertical Slice Demo"
 header:
   overlay_image: /assets/images/mush_GameplayHeaderResized.png
   overlay_filter: 0.35
-gallery:
-  - image_path: /assets/images/mush_stats_doubleJump.gif
-  - image_path: /assets/images/mush_stats_highJump.gif
-  - image_path: /assets/images/mush_SO_stats.png
-gallery2:
-  - image_path: /assets/images/mush_code_controller.png
-  - image_path: /assets/images/mush_code_check.png
-gallery3:
-  - image_path: /assets/images/mush_inputController.png
-  - image_path: /assets/images/mush_controllerClass.png
-  - image_path: /assets/images/mush_code_controller.png
-  - image_path: /assets/images/mush_AIController.png
 ---
 Mush was my senior project in Spring 2025. It is a vertical slice of an action platformer created in Unity. I created all the assets (Scripts, SFX, sprites, animations, etc.). My major focus was to create a solid foundation (modular and easy to write code, Scriptable objects for convenient and quick game design, "paintable levels', a highly customizable and good feeling jump mechanic, and documentation).
 ## Coding Architecture for character systems

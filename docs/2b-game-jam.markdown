@@ -1,5 +1,6 @@
 ﻿---
 layout: single
+classes: wide
 title: "Two Button Game Jam"
 permalink: /2b-game-jam/
 excerpt: "2D Horder shooter"
